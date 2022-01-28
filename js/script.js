@@ -37,11 +37,13 @@ function limpa(){
 
     var precoEtanol = parseFloat(document.getElementById('preco-gasolina').value);
     var precoGasolina = parseFloat(document.getElementById('preco-gasolina').value);
+    var display = document.getElementById('display');
+    var requirements = document.getElementById('requirements');
     precoEtanol = null;
     precoGasolina = null;
 
     console.log(precoGasolina + ' ' + precoEtanol);
-    document.getElementById('requisitos').innerText='';
-    document.getElementById('display').innerText='';
+    requirements.innerText='';
+    display.innerText='';
 
 }
